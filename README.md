@@ -1,7 +1,23 @@
 # MathApp
-MathTutor is a mathApp that lets you practice on +, -, * and /. Here was my sketch before I started with the code. I made a couple of changes to the app. Some layout differences, but also I changed the CustomIntervalActivity to be a fragment in the ChooseIntervalActivity. I also implemented the AnswerActivity directly into the QuestionActivity. The progressBar was only shown in the CompletedActivty. 
+MathTutor is a mathApp that lets you practice on +, -, * and /. 
 
-So far it's only in english. And you can't write negativ numbers in QuestionActivity....
+So far it's only in english. And you can't write negativ numbers in QuestionActivity.... Here are some screenshots from the current app (20/11/2024. 
+
+Below the app screenshots is my sketch before I started with the code. I made a couple of changes to the app. Some layout differences, but also I changed the CustomIntervalActivity to be a fragment in the ChooseIntervalActivity. I also implemented the AnswerActivity directly into the QuestionActivity. The progressBar was only shown in the CompletedActivty. 
+
+
+<img width="361" alt="Skärmavbild 2024-11-20 kl  13 24 58" src="https://github.com/user-attachments/assets/890aa5b7-e27a-40f5-b229-a46860225ad6">
+<img width="364" alt="Skärmavbild 2024-11-20 kl  13 25 07" src="https://github.com/user-attachments/assets/c5cf6a8c-967e-401b-adb6-9eab29b4277e">
+<img width="362" alt="Skärmavbild 2024-11-20 kl  13 25 19" src="https://github.com/user-attachments/assets/0715bd51-02bd-4eaf-a7df-5a73e5b28b9a">
+<img width="360" alt="Skärmavbild 2024-11-20 kl  13 25 27" src="https://github.com/user-attachments/assets/9cfc3c2c-6c0e-44bd-bd00-d5c93286a3c7">
+<img width="359" alt="Skärmavbild 2024-11-20 kl  13 25 47" src="https://github.com/user-attachments/assets/c7529b79-4d45-4180-9e1e-b64dbf8f5623">
+<img width="361" alt="Skärmavbild 2024-11-20 kl  13 25 58" src="https://github.com/user-attachments/assets/27af5ee9-ef77-4424-88fe-b871b93d659a">
+<img width="360" alt="Skärmavbild 2024-11-20 kl  13 26 54" src="https://github.com/user-attachments/assets/bbde6ce1-0776-47b0-ad4d-02ba59a7f1cf">
+
+
+
+
+Sketch v
 
 
 
