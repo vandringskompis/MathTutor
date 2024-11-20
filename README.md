@@ -1,7 +1,7 @@
 # MathApp
 MathTutor is a mathApp that lets you practice on +, -, * and /. Here was my sketch before I started with the code. I made a couple of changes to the app. Some layout differences, but also I changed the CustomIntervalActivity to be a fragment in the ChooseIntervalActivity. I also implemented the AnswerActivity directly into the QuestionActivity. The progressBar was only shown in the CompletedActivty. 
 
-So far it's only in english. 
+So far it's only in english. And you can't write negativ numbers in QuestionActivity....
 
 
 
