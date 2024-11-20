@@ -4,10 +4,11 @@ MathTutor is a mathApp that lets you practice on +, -, * and /. Here was my sket
 So far it's only in english. 
 
 
-<img width="322" alt="Skärmavbild 2024-11-20 kl  11 25 19" src="https://github.com/user-attachments/assets/cee5e791-a5e2-4fac-8750-e219792a2763">
-<img width="333" alt="Skärmavbild 2024-11-20 kl  11 25 24" src="https://github.com/user-attachments/assets/36046d95-5064-44f8-bc9d-64eaeec7f4c5">
-<img width="333" alt="Skärmavbild 2024-11-20 kl  11 25 30" src="https://github.com/user-attachments/assets/06ed13fc-ca7c-4575-be5e-ddc3db4237bd">
-<img width="324" alt="Skärmavbild 2024-11-20 kl  11 25 52" src="https://github.com/user-attachments/assets/fa2ce1ea-8784-454f-b0dc-60a95c71d35f">
-<img width="329" alt="Skärmavbild 2024-11-20 kl  11 25 58" src="https://github.com/user-attachments/assets/85733f3d-0e0e-47ce-b437-8aa5d0f6d708">
-<img width="337" alt="Skärmavbild 2024-11-20 kl  11 26 03" src="https://github.com/user-attachments/assets/9ee9bf19-ff59-4f6c-82be-7978c5730a59">
-<img width="331" alt="Skärmavbild 2024-11-20 kl  11 26 08" src="https://github.com/user-attachments/assets/b44b2880-ce1e-4b3b-8540-54d637676467">
+
+<img width="322" alt="Skärmavbild 2024-11-20 kl  11 25 19" src="https://github.com/user-attachments/assets/d331308a-6627-4376-8579-2ea3e80379f1">
+<img width="333" alt="Skärmavbild 2024-11-20 kl  11 25 24" src="https://github.com/user-attachments/assets/703d11e7-3bd9-41e1-ad72-476477e21b0a">
+<img width="333" alt="Skärmavbild 2024-11-20 kl  11 25 30" src="https://github.com/user-attachments/assets/143c1fa7-7e0c-4355-957c-d8842a667841">
+<img width="324" alt="Skärmavbild 2024-11-20 kl  11 25 52" src="https://github.com/user-attachments/assets/b86e6d19-8915-4234-b78e-53181deb6360">
+<img width="329" alt="Skärmavbild 2024-11-20 kl  11 25 58" src="https://github.com/user-attachments/assets/22dd1c34-2882-42ee-9170-1b988e676fc9">
+<img width="337" alt="Skärmavbild 2024-11-20 kl  11 26 03" src="https://github.com/user-attachments/assets/b8978734-832e-4234-9576-4f65aa84d3a4">
+<img width="331" alt="Skärmavbild 2024-11-20 kl  11 26 08" src="https://github.com/user-attachments/assets/4c4507fe-f5f8-460f-b1ab-9210be0f7ed7">
