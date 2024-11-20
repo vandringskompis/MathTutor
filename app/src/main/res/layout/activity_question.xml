@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ED6E4"
+    tools:context=".custom_interval">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#1A818E"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Questions"
+            android:textSize="40sp">
+
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1A818E">
+
+
+                <TextView
+                    android:id="@+id/question_view"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#9ED6E4"
+                    android:text="QUESTION"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/answer_input"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#9ED6E4"
+                    android:inputType="numberDecimal"
+                    android:hint="Answer:"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/question_view">
+
+                </EditText>
+
+                <TextView
+                    android:id="@+id/answer_view"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#9ED6E4"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/answer_input">
+
+                </TextView>
+
+
+                <Button
+                    android:id="@+id/next_question"
+                    android:layout_width="270dp"
+                    android:layout_height="70dp"
+                    android:text="Next question"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/answer_view"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/enter_button"
+                    android:layout_width="114dp"
+                    android:layout_height="74dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="Enter"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/back_button"
+                    android:layout_width="114dp"
+                    android:layout_height="74dp"
+                    android:text="Back"
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/enter_button"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </Button>
+
+                <TextView
+                    android:id="@+id/correct_wrong_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/answer_view"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/answer_input" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

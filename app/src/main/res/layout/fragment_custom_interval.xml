@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomFragment"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:background="#1A818E">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#9ED6E4"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/text_interval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:background="#9ED6E4"
+                android:text="Choose an interval"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toTopOf="@+id/lowest_number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/highest_number"
+            android:layout_width="129dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:background="#9ED6E4"
+            android:fontFamily="monospace"
+            android:hint="Enter max"
+            android:lineSpacingExtra="12sp"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.893"
+            app:layout_constraintStart_toEndOf="@+id/lowest_number"
+            app:layout_constraintTop_toTopOf="parent"
+            android:inputType="number">
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/lowest_number"
+            android:layout_width="126dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:background="#9ED6E4"
+            android:fontFamily="monospace"
+            android:hint="Enter min"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/enter_custom_numbers"
+            android:layout_width="139dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="10dp"
+            android:text="Enter"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
